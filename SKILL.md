@@ -13,7 +13,7 @@ description: >-
   Karina state is involved. Use karina-orchestration for supervised multi-agent
   coordination, karina-browser-use for Karina's browser tabs, and
   karina-computer-use only when a visible window needs GUI control.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # Karina Workspace (Windows)
@@ -42,7 +42,7 @@ Choose the executable once and reuse it for every later command:
 - If the `KARINA_CLI_COMMAND` environment variable is set, use its value. Terminals that
   Karina opens already set it.
 - Otherwise, use the one already on `PATH`: `karina-cli` for the release build,
-  `karina-dev-cli` for the dev build (Settings → General → **Karina CLI** puts whichever
+  `karina-dev-cli` for the dev build (Settings → AI 기능 → **Karina CLI** puts whichever
   build you are running there, and each name reaches its own app).
 - Otherwise, use the full path of the installed binary.
 
